@@ -1614,7 +1614,7 @@ Thank you for your attention! Feel free to reach out with questions or contribut
 
 
 
-&lt;div id=&#34;chart-694871325&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-156293874&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -1632,7 +1632,7 @@ Thank you for your attention! Feel free to reach out with questions or contribut
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-694871325&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-156293874&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
